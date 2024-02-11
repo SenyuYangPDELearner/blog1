@@ -1,1 +1,1 @@
-# blog1
+# 拾数集 | YSY's Math Blog
