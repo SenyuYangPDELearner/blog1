@@ -31,10 +31,10 @@ $n=3$时情况会更微妙些. 根据球的对称性，我们可以不失一般�
 
 > **定理.**(Lusternik-Schnirelmann) 若$S^2$被三个闭集所覆盖，则至少有一个闭集包含一对对径点.<br/><br/>
 > *注.* 一个更令人惊讶的事实是，这个推论和B-U定理是[等价](https://math.uchicago.edu/~may/REU2017/REUPapers/Dougherty.pdf)的！<br/><br/>
-> *证明.* 把上述闭集记为$F_i(i=1,2,3)$. 我们引入一个巧妙的构造，令映射$f:S^2\to \mathbf{R}^2$,
-> $$f(x)=(\mathrm{dist}(x,F_1), \mathrm{dist}(x,F_2)),$$
-> 其中$\mathrm{dist}(x,F)$表示点$x$与闭集$F$的距离：
-> <img src="https://www.zhihu.com/equation?tex=dist(x,F)=\min\{\left\lvert x-y\right\rvert\mid y\in F\},">
+> *证明.* 把上述闭集记为$F_i(i=1,2,3)$. 我们引入一个巧妙的构造，令映射$f:S^2\to \mathbf{R}^2$,<br/>
+> <img src="https://www.zhihu.com/equation?tex=f(x)=(\mathrm{dist}(x,F_1), \mathrm{dist}(x,F_2)),"><br/>
+> 其中$\mathrm{dist}(x,F)$表示点$x$与闭集$F$的距离：<br/>
+> <img src="https://www.zhihu.com/equation?tex=dist(x,F)=\min\{\left\lvert x-y\right\rvert\mid y\in F\},"><br/>
 > 所以$f$是连续映射(熟悉数学分析的读者应该能自己证明$\mathrm{dist}(x,F)$的存在性和$f$的连续性啦). 根据B-U定理，存在$x\in S^2$，$f(x)=f(-x)$.<br/>
 >     (i) 如果$x\in F_1$($x\in F_2$同理)，则$0=\mathrm{dist}(x,F_1)=\mathrm{dist}(-x,F_1)$，所以$-x\in F_1$；<br/>
 >     (ii) 如果$x\notin F_1\cup F_2$，则$\mathrm{dist}(-x,F_i)=\mathrm{dist}(x,F_i)>0, i=1,2$. 所以$x,-x\in F_3$.<br/>
