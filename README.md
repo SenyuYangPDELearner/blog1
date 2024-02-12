@@ -1,3 +1,19 @@
+<style>
+.bjimg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+height:100%;
+min-width: 1000px;
+z-index:-10;
+zoom: 1;
+  background-image: url(https://wallpapercave.com/wp/wp2350843.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 0;
+  }
+</style>
 <head>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">
@@ -9,6 +25,8 @@
         });
     </script>
 </head>
+<div class="bjimg"></div>
+
 # 张灯结彩：照亮球的表面需要多少盏灯
 
 首先祝你2024龙年万事顺遂，平安健康！这篇短文是博客的创刊号兼春节特辑，主题正如标题所示，下面用较严格的语言叙述它：
