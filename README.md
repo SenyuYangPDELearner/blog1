@@ -50,7 +50,7 @@ $n=3$时情况会更微妙些. 根据球的对称性，我们可以不失一般�
 
 > **定理.**(Lusternik-Schnirelmann) 若$S^2$被三个闭集所覆盖，则至少有一个闭集包含一对对径点.
 
-*注.* 一个更令人惊讶的事实是，这个推论和B-U定理是[等价](https://math.uchicago.edu/~may/REU2017/REUPapers/Dougherty.pdf)的！<br/><br/>
+*注.* 一个更令人惊讶的事实是，这个推论和B-U定理是[等价](https://math.uchicago.edu/~may/REU2017/REUPapers/Dougherty.pdf)的！<br/>
 
 *证明.* 把上述闭集记为$F_i(i=1,2,3)$. 我们引入一个巧妙的构造，令映射$f:S^2\to \mathbf{R}^2$,
 
