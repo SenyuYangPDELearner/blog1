@@ -48,7 +48,7 @@ $n=3$时情况会更微妙些. 根据球的对称性，我们可以不失一般�
 
 下面关注一个有趣的推论：
 
-> **定理.**(Lusternik-Schnirelmann) 若$S^2$被三个闭集所覆盖，则至少有一个闭集包含一对对径点.<br/><br/>
+> **定理.**(Lusternik-Schnirelmann) 若$S^2$被三个闭集所覆盖，则至少有一个闭集包含一对对径点.
 
 *注.* 一个更令人惊讶的事实是，这个推论和B-U定理是[等价](https://math.uchicago.edu/~may/REU2017/REUPapers/Dougherty.pdf)的！<br/><br/>
 
